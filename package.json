@@ -6,9 +6,12 @@
   "dependencies": {
     "lite-server": "^2.5.4"
   },
-  "devDependencies": {},
-  "scripts": {    
-    "dev": "lite-server"
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "compile": "node-sass sass/main.scss css/style.css --watch"
   },
   "repository": {
     "type": "git",
